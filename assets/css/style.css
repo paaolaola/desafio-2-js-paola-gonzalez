@@ -1,0 +1,125 @@
+body {
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+}
+
+.apart {
+    border: 1px dashed whitesmoke;
+}
+
+/*1er Problema*/
+.gato {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+
+    background-color: salmon;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+
+/*2do Problema*/
+.box2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto 5rem auto;
+    justify-content: center;
+    align-items: center;
+
+    background-color: violet;
+    height: 600px;
+    width: 600px;
+    border-radius: 3%;
+}
+
+.stickers {
+    display: flex;
+    align-items: center;
+}
+.sticker1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticker2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticker3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github {
+    height: 200px;
+    width: 200px;
+}
+
+.git {
+    height: 200px;
+    width: 200px;
+}
+
+.bootstrap {
+    height: 200px;
+    width: 200px;
+}
+.btn1 {
+    background: tomato;
+    border: none;
+    padding: 10px;
+}
+
+.resultado {
+    color: black;
+    font-size: 20px;
+}
+
+/*3er Problema*/
+.box3 {
+    background-color: cornflowerblue;
+    height: 0px;
+    width: 0px;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 600px solid khaki;
+    position: relative;
+    margin: 100px auto;
+}
+
+.datos {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, 150%);
+    text-align: center;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 {
+    margin-top: 1rem;
+}
