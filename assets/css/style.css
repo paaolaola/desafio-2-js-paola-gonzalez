@@ -21,10 +21,7 @@ body {
 .box1 {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem auto;
     justify-content: center;
     align-items: center;
 
@@ -104,7 +101,7 @@ body {
     border-right: 300px solid transparent;
     border-bottom: 600px solid khaki;
     position: relative;
-    margin: 100px auto;
+    margin: 5rem auto;
 }
 
 .datos {
